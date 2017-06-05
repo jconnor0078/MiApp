@@ -1,4 +1,8 @@
-﻿<div class="navbar-default sidebar" role="navigation">
+﻿@model MiApp.Web.Models.Layout.UserMenuOrLoginLinkViewModel
+@if (Model.LoginInformations != null)
+{
+
+<div class="navbar-default sidebar" role="navigation">
     <div class="sidebar-nav navbar-collapse">
         <ul class="nav" id="side-menu">
             <li class="sidebar-search">
@@ -107,7 +111,7 @@
                         <a href="@Url.Action("Index", "Products")">Producto</a>
                     </li>
                     <li>
-                        <a href="login.html">Login Page</a>
+                        <a href="@Url.Action("Login", "Account")">Login Page</a>
                     </li>
                 </ul>
                 <!-- /.nav-second-level -->
@@ -117,3 +121,5 @@
     <!-- /.sidebar-collapse -->
 </div>
 <!-- /.navbar-static-side -->
+
+}

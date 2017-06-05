@@ -7,6 +7,7 @@ using Abp.Threading;
 using MiApp.Sessions;
 using MiApp.Web.Models.Layout;
 
+
 namespace MiApp.Web.Controllers
 {
     public class LayoutController : MiAppControllerBase
@@ -17,8 +18,8 @@ namespace MiApp.Web.Controllers
         private readonly ILanguageManager _languageManager;
 
         public LayoutController(
-            IUserNavigationManager userNavigationManager, 
-            ISessionAppService sessionAppService, 
+            IUserNavigationManager userNavigationManager,
+            ISessionAppService sessionAppService,
             IMultiTenancyConfig multiTenancyConfig,
             ILanguageManager languageManager)
         {
@@ -32,10 +33,10 @@ namespace MiApp.Web.Controllers
         public PartialViewResult TopMenu(string activeMenu = "")
         {
             var model = new TopMenuViewModel
-                        {
-                            MainMenu = AsyncHelper.RunSync(() => _userNavigationManager.GetMenuAsync("MainMenu", AbpSession.ToUserIdentifier())),
-                            ActiveMenuItemName = activeMenu
-                        };
+            {
+                MainMenu = AsyncHelper.RunSync(() => _userNavigationManager.GetMenuAsync("MainMenu", AbpSession.ToUserIdentifier())),
+                ActiveMenuItemName = activeMenu
+            };
 
             return PartialView("_TopMenu", model);
         }
@@ -44,10 +45,10 @@ namespace MiApp.Web.Controllers
         public PartialViewResult LanguageSelection()
         {
             var model = new LanguageSelectionViewModel
-                        {
-                            CurrentLanguage = _languageManager.CurrentLanguage,
-                            Languages = _languageManager.GetLanguages()
-                        };
+            {
+                CurrentLanguage = _languageManager.CurrentLanguage,
+                Languages = _languageManager.GetLanguages()
+            };
 
             return PartialView("_LanguageSelection", model);
         }
@@ -69,21 +70,55 @@ namespace MiApp.Web.Controllers
             {
                 model = new UserMenuOrLoginLinkViewModel
                 {
-                    IsMultiTenancyEnabled = _multiTenancyConfig.IsEnabled                    
+                    IsMultiTenancyEnabled = _multiTenancyConfig.IsEnabled
                 };
             }
 
             return PartialView("_UserMenuOrLoginLink", model);
         }
-
+        [ChildActionOnly]
         public ActionResult getButonOfNav()
         {
-            return PartialView("_getButonOfNav");
-        }
+             UserMenuOrLoginLinkViewModel model;
 
+            if (AbpSession.UserId.HasValue)
+            {
+                model = new UserMenuOrLoginLinkViewModel
+                {
+                    LoginInformations = AsyncHelper.RunSync(() => _sessionAppService.GetCurrentLoginInformations()),
+                    IsMultiTenancyEnabled = _multiTenancyConfig.IsEnabled,
+                };
+            }
+            else
+            {
+                model = new UserMenuOrLoginLinkViewModel
+                {
+                    IsMultiTenancyEnabled = _multiTenancyConfig.IsEnabled
+                };
+            }
+            return PartialView("_getButonOfNav", model);
+        }
+        [ChildActionOnly]
         public ActionResult getSlideMenu()
         {
-            return PartialView("_SlideMenu");
+            UserMenuOrLoginLinkViewModel model;
+
+            if (AbpSession.UserId.HasValue)
+            {
+                model = new UserMenuOrLoginLinkViewModel
+                {
+                    LoginInformations = AsyncHelper.RunSync(() => _sessionAppService.GetCurrentLoginInformations()),
+                    IsMultiTenancyEnabled = _multiTenancyConfig.IsEnabled,
+                };
+            }
+            else
+            {
+                model = new UserMenuOrLoginLinkViewModel
+                {
+                    IsMultiTenancyEnabled = _multiTenancyConfig.IsEnabled
+                };
+            }
+            return PartialView("_SlideMenu", model);
         }
     }
 }
