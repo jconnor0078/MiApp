@@ -17,7 +17,8 @@
     <link rel="shortcut icon" href="~/favicon.ico">
 
     <title>MiApp</title>
-    @RenderSection("scripts", required: false)
+    @*@Styles.Render("~/Bundles/vendor/css")*@
+
 
     @RenderSection("styles", required: false)
 
@@ -38,7 +39,7 @@
         //This is used to get the application's root path from javascript. It's useful if you're running application in a virtual directory under IIS.
         var abp = abp || {}; abp.appPath = '@ApplicationPath';
     </script>
-
+ 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -47,6 +48,9 @@
     <![endif]-->
 </head>
 <body>
+ 
+
+
     <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -66,19 +70,11 @@
         </div>
     </div>
 
- 
-    <script>
-        //Localizing momentjs
-        moment.locale('@Thread.CurrentThread.CurrentUICulture.Name');
-    </script>
-
-    <!-- Dynamic scripts of ABP system (They are created on runtime and can not be bundled) -->
-    <script src="~/api/AbpServiceProxies/GetAll?v=@(Clock.Now.Ticks)"></script>
-    <script src="~/AbpScripts/GetScripts?v=@(Clock.Now.Ticks)" type="text/javascript"></script>
-
+    @Scripts.Render("~/Bundles/vendor/js/bottom")
+    @Scripts.Render("~/Bundles/js")
     <!-- SignalR scripts -->
-    <script src="~/signalr/hubs"></script>
-    @Html.IncludeScript("~/Abp/Framework/scripts/libs/abp.signalr.js")
+    @*<script src="~/signalr"></script>
+    <script src="~/Abp/Framework/scripts/libs/abp.signalr.js"></script>*@
 
     <!-- jQuery -->
     <script src="~/Content/admin/vendor/jquery/jquery.min.js"></script>
@@ -92,7 +88,9 @@
     <script src="~/Content/admin/data/morris-data.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="~/Content/admin/dist/js/sb-admin-2.js"></script>
-
+   
+    <!-- View specific scripts -->
+    @RenderSection("scripts", required: false)
 </body>
 </html>
 

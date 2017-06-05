@@ -1,6 +1,6 @@
-﻿(function() {
+﻿(function () {
+
     $(function () {
-      
         $('#LoginButton').click(function (e) {
             e.preventDefault();
             abp.ui.setBusy(

@@ -381,3 +381,1567 @@ DEBUG 2017-06-05 15:52:45,857 [9    ] Abp.Modules.AbpModuleManager             -
 DEBUG 2017-06-05 15:52:45,859 [9    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
 DEBUG 2017-06-05 15:52:45,859 [9    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
 DEBUG 2017-06-05 15:52:45,859 [9    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-06-05 16:21:13,356 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-06-05 16:21:13,986 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-06-05 16:21:13,994 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.Web.MiAppWebModule, MiApp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:21:13,995 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppDataModule, MiApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:21:13,995 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:21:13,995 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:21:13,995 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:21:13,996 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:21:13,996 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:21:13,997 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppCoreModule, MiApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:21:13,997 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppApplicationModule, MiApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:21:13,997 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:21:13,998 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.Api.MiAppWebApiModule, MiApp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:21:13,998 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:21:13,998 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:21:13,999 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:21:13,999 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:21:13,999 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:21:14,004 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-06-05 16:21:14,989 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 16:21:14,989 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 16:21:14,989 [1    ] o.Configuration.LanguageManagementConfig - Converted MiApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 16:21:14,989 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 16:21:15,508 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MiApp.EntityFramework.MiAppDbContext, MiApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:21:16,374 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-06-05 16:21:16,379 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-06-05 16:21:16,384 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-06-05 16:21:16,387 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MiApp
+DEBUG 2017-06-05 16:21:16,388 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-06-05 16:21:16,515 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-05 16:21:16,563 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-06-05 16:21:16,563 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-06-05 16:21:16,563 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-06-05 16:21:16,564 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Users.Dto.CreateUserInput
+DEBUG 2017-06-05 16:21:16,564 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Users.Dto.UserListDto
+DEBUG 2017-06-05 16:21:16,564 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Products.Dto.ProductListDto
+DEBUG 2017-06-05 16:21:16,564 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-06-05 16:21:16,564 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-06-05 16:21:16,564 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-06-05 16:21:18,734 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-06-05 16:21:18,736 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-06-05 16:21:18,737 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-06-05 16:21:18,738 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2017-06-05 16:21:18,739 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-06-05 16:21:22,547 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2d614a42-cc51-4513-9670-03e05dc8d52f","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T16:21:22.5172332-04:00","Properties":{}}
+WARN  2017-06-05 16:21:22,884 [11   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+WARN  2017-06-05 16:21:25,777 [11   ] Abp.Logging.LogHelper                    - Can not find 'Product' in localization source 'MiApp'!
+WARN  2017-06-05 16:21:42,738 [12   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-06-05 16:21:42,738 [12   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:61759/Account/Login
+WARN  2017-06-05 16:21:50,020 [11   ] Abp.Logging.LogHelper                    - Can not find 'Product' in localization source 'MiApp'!
+WARN  2017-06-05 16:22:01,190 [11   ] Abp.Logging.LogHelper                    - Can not find 'Product' in localization source 'MiApp'!
+WARN  2017-06-05 16:22:06,961 [14   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-06-05 16:22:06,962 [14   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:61759/Account/Login
+WARN  2017-06-05 16:22:14,918 [11   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-06-05 16:22:14,918 [11   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:61759/Account/Login
+WARN  2017-06-05 16:39:53,935 [69   ] Abp.Logging.LogHelper                    - Can not find 'Product' in localization source 'MiApp'!
+DEBUG 2017-06-05 16:40:09,678 [59   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-06-05 16:40:09,680 [59   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-05 16:40:09,681 [59   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-05 16:40:09,681 [59   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-06-05 16:43:08,516 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-06-05 16:43:09,878 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-06-05 16:43:09,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.Web.MiAppWebModule, MiApp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:43:09,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppDataModule, MiApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:43:09,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:43:09,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:43:09,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:43:09,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:43:09,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:43:09,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppCoreModule, MiApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:43:09,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppApplicationModule, MiApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:43:09,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:43:09,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.Api.MiAppWebApiModule, MiApp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:43:09,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:43:09,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:43:09,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:43:09,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:43:09,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:43:09,896 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-06-05 16:43:11,661 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 16:43:11,661 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 16:43:11,661 [1    ] o.Configuration.LanguageManagementConfig - Converted MiApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 16:43:11,661 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 16:43:12,268 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MiApp.EntityFramework.MiAppDbContext, MiApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:43:13,162 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-06-05 16:43:13,167 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-06-05 16:43:13,172 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-06-05 16:43:13,175 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MiApp
+DEBUG 2017-06-05 16:43:13,177 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-06-05 16:43:13,300 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-05 16:43:13,343 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-06-05 16:43:13,343 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-06-05 16:43:13,343 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-06-05 16:43:13,343 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Users.Dto.CreateUserInput
+DEBUG 2017-06-05 16:43:13,343 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Users.Dto.UserListDto
+DEBUG 2017-06-05 16:43:13,343 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Products.Dto.ProductListDto
+DEBUG 2017-06-05 16:43:13,343 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-06-05 16:43:13,344 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-06-05 16:43:13,344 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-06-05 16:43:15,478 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-06-05 16:43:15,479 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-06-05 16:43:15,481 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-06-05 16:43:15,482 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2017-06-05 16:43:15,484 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-06-05 16:43:20,431 [13   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+WARN  2017-06-05 16:43:20,431 [12   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+WARN  2017-06-05 16:43:22,162 [15   ] Abp.Logging.LogHelper                    - Can not find 'Product' in localization source 'MiApp'!
+DEBUG 2017-06-05 16:43:35,422 [12   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-06-05 16:43:35,425 [12   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-05 16:43:35,427 [12   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-05 16:43:35,427 [12   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-06-05 16:55:28,887 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-06-05 16:55:28,916 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-06-05 16:55:28,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.Web.MiAppWebModule, MiApp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:55:28,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppDataModule, MiApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:55:28,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:55:28,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:55:28,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:55:28,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:55:28,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:55:28,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppCoreModule, MiApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:55:28,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppApplicationModule, MiApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:55:28,937 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:55:28,937 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.Api.MiAppWebApiModule, MiApp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:55:28,937 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:55:28,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:55:28,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:55:28,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:55:28,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:55:28,944 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-06-05 16:55:29,156 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 16:55:29,156 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 16:55:29,156 [1    ] o.Configuration.LanguageManagementConfig - Converted MiApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 16:55:29,156 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 16:55:29,569 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MiApp.EntityFramework.MiAppDbContext, MiApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 16:55:31,391 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-06-05 16:55:31,406 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-06-05 16:55:31,416 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-06-05 16:55:31,420 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MiApp
+DEBUG 2017-06-05 16:55:31,422 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-06-05 16:55:31,600 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-05 16:55:31,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-06-05 16:55:31,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-06-05 16:55:31,696 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-06-05 16:55:31,696 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Users.Dto.CreateUserInput
+DEBUG 2017-06-05 16:55:31,697 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Users.Dto.UserListDto
+DEBUG 2017-06-05 16:55:31,697 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Products.Dto.ProductListDto
+DEBUG 2017-06-05 16:55:31,697 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-06-05 16:55:31,697 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-06-05 16:55:31,697 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-06-05 16:55:33,922 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-06-05 16:55:33,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-06-05 16:55:33,925 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-06-05 16:55:33,928 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2017-06-05 16:55:33,929 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+ERROR 2017-06-05 16:55:34,632 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - Can not find IP address of the client! connectionId: 3e3b20e7-729e-4d1a-b276-40c785128083
+ERROR 2017-06-05 16:55:34,633 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - Value does not fall within the expected range.
+System.ArgumentException: Value does not fall within the expected range.
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Web.Hosting.IIS7WorkerRequest.GetServerVariableInternal(String name)
+   at System.Web.Hosting.IIS7WorkerRequest.GetServerVariable(String name)
+   at System.Web.HttpRequest.FillInServerVariablesCollection()
+   at System.Web.HttpServerVarsCollection.Populate()
+   at System.Web.HttpServerVarsCollection.Get(String name)
+   at Microsoft.Owin.Host.SystemWeb.OwinCallContext.Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.IPropertySource.GetServerRemoteIpAddress()
+   at Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.get_ServerRemoteIpAddress()
+   at Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.PropertiesTryGetValue(String key, Object& value)
+   at Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.System.Collections.Generic.IDictionary<System.String,System.Object>.get_Item(String key)
+   at Abp.Web.SignalR.Hubs.AbpCommonHub.GetIpAddressOfClient()
+DEBUG 2017-06-05 16:55:34,678 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"3e3b20e7-729e-4d1a-b276-40c785128083","IpAddress":"","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T16:55:34.6409246-04:00","Properties":{}}
+DEBUG 2017-06-05 16:55:34,693 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8edfb9ac-c703-4a95-8455-649c93d984f8","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T16:55:34.6939226-04:00","Properties":{}}
+WARN  2017-06-05 16:55:35,861 [11   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+WARN  2017-06-05 16:55:35,861 [12   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-06-05 16:55:43,213 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8edfb9ac-c703-4a95-8455-649c93d984f8
+WARN  2017-06-05 16:55:43,761 [12   ] Abp.Logging.LogHelper                    - Can not find 'Product' in localization source 'MiApp'!
+DEBUG 2017-06-05 16:55:44,454 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d9ec37c5-f7f2-4066-bf80-912041bc0c0f","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T16:55:44.4544898-04:00","Properties":{}}
+DEBUG 2017-06-05 16:55:44,511 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d9ec37c5-f7f2-4066-bf80-912041bc0c0f
+WARN  2017-06-05 16:56:00,292 [9    ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-06-05 16:56:00,292 [9    ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:61759/Account/Login
+DEBUG 2017-06-05 16:56:00,332 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d9ec37c5-f7f2-4066-bf80-912041bc0c0f
+DEBUG 2017-06-05 16:56:03,176 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e139625e-5715-4cf8-b7a3-91c9f711f047","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T16:56:03.1766578-04:00","Properties":{}}
+DEBUG 2017-06-05 16:56:03,210 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e139625e-5715-4cf8-b7a3-91c9f711f047
+DEBUG 2017-06-05 16:56:52,014 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e139625e-5715-4cf8-b7a3-91c9f711f047
+WARN  2017-06-05 16:56:53,269 [20   ] Abp.Logging.LogHelper                    - Can not find 'Product' in localization source 'MiApp'!
+DEBUG 2017-06-05 16:56:54,433 [4    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"cdae4d22-179a-43d2-a5bc-d211318960fe","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T16:56:54.4333829-04:00","Properties":{}}
+DEBUG 2017-06-05 16:56:54,461 [4    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: cdae4d22-179a-43d2-a5bc-d211318960fe
+WARN  2017-06-05 16:57:13,511 [25   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-06-05 16:57:13,511 [25   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:61759/Account/Login
+DEBUG 2017-06-05 16:57:13,570 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: cdae4d22-179a-43d2-a5bc-d211318960fe
+DEBUG 2017-06-05 16:57:28,339 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0a2c5629-04e2-4122-9748-d314339d9b49","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T16:57:28.3398766-04:00","Properties":{}}
+DEBUG 2017-06-05 16:57:28,475 [4    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0a2c5629-04e2-4122-9748-d314339d9b49
+DEBUG 2017-06-05 16:57:35,804 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0a2c5629-04e2-4122-9748-d314339d9b49
+WARN  2017-06-05 16:57:36,288 [23   ] Abp.Logging.LogHelper                    - Can not find 'Product' in localization source 'MiApp'!
+DEBUG 2017-06-05 16:57:37,175 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a2f95178-fcf3-4fc9-8b4f-b3d2e6fb312c","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T16:57:37.1754843-04:00","Properties":{}}
+DEBUG 2017-06-05 16:57:37,230 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a2f95178-fcf3-4fc9-8b4f-b3d2e6fb312c
+DEBUG 2017-06-05 16:59:04,875 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a2f95178-fcf3-4fc9-8b4f-b3d2e6fb312c
+WARN  2017-06-05 16:59:05,412 [30   ] Abp.Logging.LogHelper                    - Can not find 'Product' in localization source 'MiApp'!
+DEBUG 2017-06-05 16:59:06,790 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b644a0b4-f3fe-47ae-8afe-f234b293bafc","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T16:59:06.7905062-04:00","Properties":{}}
+DEBUG 2017-06-05 16:59:06,897 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b644a0b4-f3fe-47ae-8afe-f234b293bafc
+DEBUG 2017-06-05 17:01:14,710 [48   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b644a0b4-f3fe-47ae-8afe-f234b293bafc
+WARN  2017-06-05 17:01:15,555 [41   ] Abp.Logging.LogHelper                    - Can not find 'Product' in localization source 'MiApp'!
+DEBUG 2017-06-05 17:01:16,186 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d9570b98-cdf5-49ee-8315-385633d9bae1","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T17:01:16.1860992-04:00","Properties":{}}
+DEBUG 2017-06-05 17:01:16,323 [48   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d9570b98-cdf5-49ee-8315-385633d9bae1
+DEBUG 2017-06-05 17:01:32,995 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d9570b98-cdf5-49ee-8315-385633d9bae1
+WARN  2017-06-05 17:01:33,486 [46   ] Abp.Logging.LogHelper                    - Can not find 'Product' in localization source 'MiApp'!
+DEBUG 2017-06-05 17:01:34,133 [46   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7331690c-950b-4e43-883c-4dd241744c1d","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T17:01:34.1322993-04:00","Properties":{}}
+DEBUG 2017-06-05 17:01:34,228 [46   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7331690c-950b-4e43-883c-4dd241744c1d
+DEBUG 2017-06-05 17:01:41,469 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 7331690c-950b-4e43-883c-4dd241744c1d
+WARN  2017-06-05 17:01:41,565 [41   ] Abp.Logging.LogHelper                    - Can not find 'Product' in localization source 'MiApp'!
+DEBUG 2017-06-05 17:01:41,997 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6ddf1578-e33f-4486-b26b-2dd4258eb7e2","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T17:01:41.9979481-04:00","Properties":{}}
+DEBUG 2017-06-05 17:01:42,047 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6ddf1578-e33f-4486-b26b-2dd4258eb7e2
+WARN  2017-06-05 17:01:49,476 [46   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-06-05 17:01:49,476 [46   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:61759/Account/Login
+DEBUG 2017-06-05 17:01:49,495 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6ddf1578-e33f-4486-b26b-2dd4258eb7e2
+DEBUG 2017-06-05 17:01:52,438 [49   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d69a4768-46ef-4d9f-bf4b-2e9d10fbfb9c","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T17:01:52.438486-04:00","Properties":{}}
+DEBUG 2017-06-05 17:01:52,459 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d69a4768-46ef-4d9f-bf4b-2e9d10fbfb9c
+WARN  2017-06-05 17:02:52,596 [41   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-06-05 17:02:52,596 [41   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:61759/Account/Login
+DEBUG 2017-06-05 17:02:52,616 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d69a4768-46ef-4d9f-bf4b-2e9d10fbfb9c
+DEBUG 2017-06-05 17:02:55,166 [54   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"19c4d21e-f11f-41f9-b963-1a18318dc61a","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T17:02:55.1667018-04:00","Properties":{}}
+DEBUG 2017-06-05 17:02:55,176 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 19c4d21e-f11f-41f9-b963-1a18318dc61a
+WARN  2017-06-05 17:08:15,722 [66   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-06-05 17:08:15,722 [66   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:61759/Account/Login
+DEBUG 2017-06-05 17:08:15,742 [66   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 19c4d21e-f11f-41f9-b963-1a18318dc61a
+WARN  2017-06-05 17:08:22,178 [70   ] Abp.Logging.LogHelper                    - Can not find 'Product' in localization source 'MiApp'!
+DEBUG 2017-06-05 17:08:22,641 [77   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5c2a3111-e8b6-4272-ae13-9b0d6d6e3035","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T17:08:22.641239-04:00","Properties":{}}
+DEBUG 2017-06-05 17:08:22,651 [66   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5c2a3111-e8b6-4272-ae13-9b0d6d6e3035
+DEBUG 2017-06-05 17:09:23,130 [66   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-06-05 17:09:23,131 [66   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-05 17:09:23,132 [66   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-05 17:09:23,132 [66   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-06-05 17:14:53,139 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-06-05 17:14:54,040 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-06-05 17:14:54,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.Web.MiAppWebModule, MiApp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:14:54,057 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppDataModule, MiApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:14:54,058 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:14:54,059 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:14:54,059 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:14:54,059 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:14:54,061 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:14:54,061 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppCoreModule, MiApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:14:54,062 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppApplicationModule, MiApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:14:54,062 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:14:54,063 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.Api.MiAppWebApiModule, MiApp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:14:54,063 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:14:54,063 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:14:54,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:14:54,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:14:54,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:14:54,072 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-06-05 17:14:55,537 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 17:14:55,537 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 17:14:55,537 [1    ] o.Configuration.LanguageManagementConfig - Converted MiApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 17:14:55,537 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 17:14:56,100 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MiApp.EntityFramework.MiAppDbContext, MiApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:14:57,074 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-06-05 17:14:57,086 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-06-05 17:14:57,092 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-06-05 17:14:57,095 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MiApp
+DEBUG 2017-06-05 17:14:57,097 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-06-05 17:14:57,238 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-05 17:14:57,332 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-06-05 17:14:57,332 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-06-05 17:14:57,338 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-06-05 17:14:57,339 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Users.Dto.CreateUserInput
+DEBUG 2017-06-05 17:14:57,339 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Users.Dto.UserListDto
+DEBUG 2017-06-05 17:14:57,340 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Products.Dto.ProductListDto
+DEBUG 2017-06-05 17:14:57,340 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-06-05 17:14:57,340 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-06-05 17:14:57,340 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-06-05 17:14:59,759 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-06-05 17:14:59,761 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-06-05 17:14:59,763 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-06-05 17:14:59,765 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2017-06-05 17:14:59,767 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-06-05 17:15:04,169 [12   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+ERROR 2017-06-05 17:15:04,338 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - Can not find IP address of the client! connectionId: dbea7624-d90c-4634-9f03-e0eb856c43bf
+ERROR 2017-06-05 17:15:04,339 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - Value does not fall within the expected range.
+System.ArgumentException: Value does not fall within the expected range.
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Web.Hosting.IIS7WorkerRequest.GetServerVariableInternal(String name)
+   at System.Web.Hosting.IIS7WorkerRequest.GetServerVariable(String name)
+   at System.Web.HttpRequest.FillInServerVariablesCollection()
+   at System.Web.HttpServerVarsCollection.Populate()
+   at System.Web.HttpServerVarsCollection.Get(String name)
+   at Microsoft.Owin.Host.SystemWeb.OwinCallContext.Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.IPropertySource.GetServerRemoteIpAddress()
+   at Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.get_ServerRemoteIpAddress()
+   at Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.PropertiesTryGetValue(String key, Object& value)
+   at Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.System.Collections.Generic.IDictionary<System.String,System.Object>.get_Item(String key)
+   at Abp.Web.SignalR.Hubs.AbpCommonHub.GetIpAddressOfClient()
+DEBUG 2017-06-05 17:15:04,407 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"dbea7624-d90c-4634-9f03-e0eb856c43bf","IpAddress":"","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T17:15:04.3460784-04:00","Properties":{}}
+DEBUG 2017-06-05 17:15:04,435 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b8973628-03d2-45f1-8be3-fd4a8c63976d","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T17:15:04.4340789-04:00","Properties":{}}
+WARN  2017-06-05 17:15:07,499 [10   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+WARN  2017-06-05 17:15:07,916 [11   ] Abp.Logging.LogHelper                    - Can not find 'Product' in localization source 'MiApp'!
+DEBUG 2017-06-05 17:15:08,351 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7ee69115-77ad-4b4c-ba0a-e3c02e1c971f","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T17:15:08.3510559-04:00","Properties":{}}
+DEBUG 2017-06-05 17:15:08,403 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7ee69115-77ad-4b4c-ba0a-e3c02e1c971f
+DEBUG 2017-06-05 17:17:30,923 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 7ee69115-77ad-4b4c-ba0a-e3c02e1c971f
+WARN  2017-06-05 17:17:31,267 [16   ] Abp.Logging.LogHelper                    - Can not find 'Product' in localization source 'MiApp'!
+DEBUG 2017-06-05 17:17:31,866 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"cf81b0a1-ba34-4078-ad11-8ab540ef3fbd","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T17:17:31.8662057-04:00","Properties":{}}
+DEBUG 2017-06-05 17:17:31,879 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: cf81b0a1-ba34-4078-ad11-8ab540ef3fbd
+WARN  2017-06-05 17:17:52,188 [9    ] Abp.Logging.LogHelper                    - Can not find 'Product' in localization source 'MiApp'!
+DEBUG 2017-06-05 17:17:52,948 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0bf9fce4-2ba2-456c-aab6-b3f1a7a39d7d","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-06-05T17:17:52.9470841-04:00","Properties":{}}
+DEBUG 2017-06-05 17:17:52,978 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0bf9fce4-2ba2-456c-aab6-b3f1a7a39d7d
+DEBUG 2017-06-05 17:18:04,085 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0bf9fce4-2ba2-456c-aab6-b3f1a7a39d7d
+DEBUG 2017-06-05 17:18:06,405 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"58b2032d-fddc-4c49-90eb-6bd630bab9d7","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-06-05T17:18:06.4049186-04:00","Properties":{}}
+DEBUG 2017-06-05 17:18:06,470 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 58b2032d-fddc-4c49-90eb-6bd630bab9d7
+WARN  2017-06-05 17:18:09,161 [21   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'MiApp'!
+WARN  2017-06-05 17:18:09,162 [21   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewProduct' in localization source 'MiApp'!
+WARN  2017-06-05 17:18:09,164 [21   ] Abp.Logging.LogHelper                    - Can not find 'Price' in localization source 'MiApp'!
+WARN  2017-06-05 17:18:09,166 [21   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewProduct' in localization source 'MiApp'!
+WARN  2017-06-05 17:18:09,168 [21   ] Abp.Logging.LogHelper                    - Can not find 'Price' in localization source 'MiApp'!
+DEBUG 2017-06-05 17:18:09,243 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 58b2032d-fddc-4c49-90eb-6bd630bab9d7
+WARN  2017-06-05 17:18:09,334 [21   ] Abp.Logging.LogHelper                    - Can not find 'Product' in localization source 'MiApp'!
+DEBUG 2017-06-05 17:18:09,544 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"926dd492-dd13-4076-8a0d-1edf0e0960b5","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-06-05T17:18:09.5448414-04:00","Properties":{}}
+DEBUG 2017-06-05 17:18:09,559 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 926dd492-dd13-4076-8a0d-1edf0e0960b5
+DEBUG 2017-06-05 17:18:11,315 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 926dd492-dd13-4076-8a0d-1edf0e0960b5
+DEBUG 2017-06-05 17:18:12,066 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3c5cb30c-a7d5-4cbc-8d69-6326bd881854","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-06-05T17:18:12.0667753-04:00","Properties":{}}
+DEBUG 2017-06-05 17:18:12,139 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3c5cb30c-a7d5-4cbc-8d69-6326bd881854
+DEBUG 2017-06-05 17:18:15,574 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 3c5cb30c-a7d5-4cbc-8d69-6326bd881854
+WARN  2017-06-05 17:18:15,660 [21   ] Abp.Logging.LogHelper                    - Can not find 'Product' in localization source 'MiApp'!
+DEBUG 2017-06-05 17:18:16,307 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"49b0d869-b69e-4bcb-8299-06bb1832b0a7","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-06-05T17:18:16.3076685-04:00","Properties":{}}
+DEBUG 2017-06-05 17:18:16,390 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 49b0d869-b69e-4bcb-8299-06bb1832b0a7
+DEBUG 2017-06-05 17:18:17,590 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 49b0d869-b69e-4bcb-8299-06bb1832b0a7
+WARN  2017-06-05 17:18:17,667 [21   ] Abp.Logging.LogHelper                    - Can not find 'Product' in localization source 'MiApp'!
+DEBUG 2017-06-05 17:18:18,286 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1d9b2c68-ebf2-40ea-81f9-c7a6702bb17a","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-06-05T17:18:18.2866189-04:00","Properties":{}}
+DEBUG 2017-06-05 17:18:18,338 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1d9b2c68-ebf2-40ea-81f9-c7a6702bb17a
+DEBUG 2017-06-05 17:18:24,695 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: cf81b0a1-ba34-4078-ad11-8ab540ef3fbd
+DEBUG 2017-06-05 17:18:37,970 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1d9b2c68-ebf2-40ea-81f9-c7a6702bb17a
+DEBUG 2017-06-05 17:18:38,286 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ebb86f56-3198-47b4-b158-5a65757fc7b5","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-06-05T17:18:38.2861179-04:00","Properties":{}}
+DEBUG 2017-06-05 17:18:38,314 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ebb86f56-3198-47b4-b158-5a65757fc7b5
+DEBUG 2017-06-05 17:18:39,996 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ebb86f56-3198-47b4-b158-5a65757fc7b5
+WARN  2017-06-05 17:18:40,083 [19   ] Abp.Logging.LogHelper                    - Can not find 'Product' in localization source 'MiApp'!
+DEBUG 2017-06-05 17:18:40,273 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ce8514e8-2492-466d-ac8c-15a0aeb8df3d","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-06-05T17:18:40.2730664-04:00","Properties":{}}
+DEBUG 2017-06-05 17:18:40,280 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ce8514e8-2492-466d-ac8c-15a0aeb8df3d
+DEBUG 2017-06-05 17:18:42,258 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ce8514e8-2492-466d-ac8c-15a0aeb8df3d
+DEBUG 2017-06-05 17:18:42,528 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ead95174-6e6a-4e19-8d57-5fbe228309ac","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-06-05T17:18:42.5280087-04:00","Properties":{}}
+DEBUG 2017-06-05 17:18:42,535 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ead95174-6e6a-4e19-8d57-5fbe228309ac
+WARN  2017-06-05 17:18:45,013 [9    ] MiApp.Web.Controllers.AccountController  - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MiApp.Web.Controllers.AccountController.<GetLoginResultAsync>d__11.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 117
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MiApp.Web.Controllers.AccountController.<Login>d__10.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 87
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-06-05 17:18:48,302 [9    ] MiApp.Web.Controllers.AccountController  - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MiApp.Web.Controllers.AccountController.<GetLoginResultAsync>d__11.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 117
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MiApp.Web.Controllers.AccountController.<Login>d__10.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 87
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-06-05 17:18:51,138 [9    ] MiApp.Web.Controllers.AccountController  - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MiApp.Web.Controllers.AccountController.<GetLoginResultAsync>d__11.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 117
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MiApp.Web.Controllers.AccountController.<Login>d__10.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 87
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-06-05 17:18:53,776 [9    ] MiApp.Web.Controllers.AccountController  - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MiApp.Web.Controllers.AccountController.<GetLoginResultAsync>d__11.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 117
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MiApp.Web.Controllers.AccountController.<Login>d__10.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 87
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-06-05 17:19:00,724 [45   ] MiApp.Web.Controllers.AccountController  - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MiApp.Web.Controllers.AccountController.<GetLoginResultAsync>d__11.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 117
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MiApp.Web.Controllers.AccountController.<Login>d__10.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 87
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-06-05 17:19:54,888 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ead95174-6e6a-4e19-8d57-5fbe228309ac
+WARN  2017-06-05 17:27:19,584 [85   ] MiApp.Web.Controllers.AccountController  - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.Web.Mvc.Validation.AbpMvcValidationFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+WARN  2017-06-05 17:27:19,585 [85   ] MiApp.Web.Controllers.AccountController  - There are 2 validation errors:
+WARN  2017-06-05 17:27:19,585 [85   ] MiApp.Web.Controllers.AccountController  - The UsernameOrEmailAddress field is required. (UsernameOrEmailAddress)
+WARN  2017-06-05 17:27:19,585 [85   ] MiApp.Web.Controllers.AccountController  - The Password field is required. (Password)
+WARN  2017-06-05 17:27:23,906 [86   ] MiApp.Web.Controllers.AccountController  - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.Web.Mvc.Validation.AbpMvcValidationFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+WARN  2017-06-05 17:27:23,906 [86   ] MiApp.Web.Controllers.AccountController  - There are 2 validation errors:
+WARN  2017-06-05 17:27:23,906 [86   ] MiApp.Web.Controllers.AccountController  - The UsernameOrEmailAddress field is required. (UsernameOrEmailAddress)
+WARN  2017-06-05 17:27:23,906 [86   ] MiApp.Web.Controllers.AccountController  - The Password field is required. (Password)
+WARN  2017-06-05 17:29:04,276 [9    ] MiApp.Web.Controllers.AccountController  - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MiApp.Web.Controllers.AccountController.<GetLoginResultAsync>d__11.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 117
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MiApp.Web.Controllers.AccountController.<Login>d__10.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 87
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-06-05 17:29:07,022 [9    ] MiApp.Web.Controllers.AccountController  - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MiApp.Web.Controllers.AccountController.<GetLoginResultAsync>d__11.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 117
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MiApp.Web.Controllers.AccountController.<Login>d__10.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 87
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-06-05 17:33:26,659 [9    ] MiApp.Web.Controllers.AccountController  - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MiApp.Web.Controllers.AccountController.<GetLoginResultAsync>d__11.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 117
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MiApp.Web.Controllers.AccountController.<Login>d__10.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 87
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-06-05 17:33:31,341 [9    ] MiApp.Web.Controllers.AccountController  - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MiApp.Web.Controllers.AccountController.<GetLoginResultAsync>d__11.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 117
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MiApp.Web.Controllers.AccountController.<Login>d__10.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 87
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-06-05 17:33:36,935 [88   ] MiApp.Web.Controllers.AccountController  - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.Web.Mvc.Validation.AbpMvcValidationFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+WARN  2017-06-05 17:33:36,935 [88   ] MiApp.Web.Controllers.AccountController  - There are 2 validation errors:
+WARN  2017-06-05 17:33:36,935 [88   ] MiApp.Web.Controllers.AccountController  - The UsernameOrEmailAddress field is required. (UsernameOrEmailAddress)
+WARN  2017-06-05 17:33:36,935 [88   ] MiApp.Web.Controllers.AccountController  - The Password field is required. (Password)
+WARN  2017-06-05 17:33:40,589 [9    ] MiApp.Web.Controllers.AccountController  - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.Web.Mvc.Validation.AbpMvcValidationFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+WARN  2017-06-05 17:33:40,589 [9    ] MiApp.Web.Controllers.AccountController  - There are 2 validation errors:
+WARN  2017-06-05 17:33:40,590 [9    ] MiApp.Web.Controllers.AccountController  - The UsernameOrEmailAddress field is required. (UsernameOrEmailAddress)
+WARN  2017-06-05 17:33:40,590 [9    ] MiApp.Web.Controllers.AccountController  - The Password field is required. (Password)
+WARN  2017-06-05 17:33:47,639 [9    ] MiApp.Web.Controllers.AccountController  - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MiApp.Web.Controllers.AccountController.<GetLoginResultAsync>d__11.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 117
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MiApp.Web.Controllers.AccountController.<Login>d__10.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 87
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-06-05 17:35:43,706 [9    ] MiApp.Web.Controllers.AccountController  - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MiApp.Web.Controllers.AccountController.<GetLoginResultAsync>d__11.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 117
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MiApp.Web.Controllers.AccountController.<Login>d__10.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 87
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-06-05 17:35:49,223 [9    ] MiApp.Web.Controllers.AccountController  - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MiApp.Web.Controllers.AccountController.<GetLoginResultAsync>d__11.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 117
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MiApp.Web.Controllers.AccountController.<Login>d__10.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 87
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-06-05 17:35:55,565 [9    ] MiApp.Web.Controllers.AccountController  - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MiApp.Web.Controllers.AccountController.<GetLoginResultAsync>d__11.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 117
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MiApp.Web.Controllers.AccountController.<Login>d__10.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 87
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-06-05 17:40:09,772 [80   ] MiApp.Web.Controllers.AccountController  - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MiApp.Web.Controllers.AccountController.<GetLoginResultAsync>d__11.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 117
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MiApp.Web.Controllers.AccountController.<Login>d__10.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 87
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-06-05 17:40:17,637 [9    ] MiApp.Web.Controllers.AccountController  - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MiApp.Web.Controllers.AccountController.<GetLoginResultAsync>d__11.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 117
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MiApp.Web.Controllers.AccountController.<Login>d__10.MoveNext() in C:\Users\jconnor.WINDTELECOM\Downloads\MiApp\MiApp.Web\Controllers\AccountController.cs:line 87
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-06-05 17:46:26,332 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-06-05 17:46:26,352 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-06-05 17:46:26,364 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.Web.MiAppWebModule, MiApp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:46:26,367 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppDataModule, MiApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:46:26,367 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:46:26,367 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:46:26,368 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:46:26,368 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:46:26,368 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:46:26,368 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppCoreModule, MiApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:46:26,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppApplicationModule, MiApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:46:26,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:46:26,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.Api.MiAppWebApiModule, MiApp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:46:26,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:46:26,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:46:26,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:46:26,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:46:26,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:46:26,374 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-06-05 17:46:26,536 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 17:46:26,536 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 17:46:26,536 [1    ] o.Configuration.LanguageManagementConfig - Converted MiApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 17:46:26,536 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 17:46:27,057 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MiApp.EntityFramework.MiAppDbContext, MiApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:46:28,820 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-06-05 17:46:28,835 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-06-05 17:46:28,844 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-06-05 17:46:28,848 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MiApp
+DEBUG 2017-06-05 17:46:28,851 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-06-05 17:46:29,004 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-05 17:46:29,078 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-06-05 17:46:29,078 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-06-05 17:46:29,082 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-06-05 17:46:29,082 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Users.Dto.CreateUserInput
+DEBUG 2017-06-05 17:46:29,082 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Users.Dto.UserListDto
+DEBUG 2017-06-05 17:46:29,082 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Products.Dto.ProductListDto
+DEBUG 2017-06-05 17:46:29,082 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-06-05 17:46:29,083 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-06-05 17:46:29,083 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-06-05 17:46:31,559 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-06-05 17:46:31,560 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-06-05 17:46:31,562 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-06-05 17:46:31,564 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2017-06-05 17:46:31,566 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-06-05 17:46:32,528 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1f0273b6-2388-4f77-8886-30debb622c18","IpAddress":"127.0.0.1","TenantId":null,"UserId":1,"ConnectTime":"2017-06-05T17:46:32.4995373-04:00","Properties":{}}
+WARN  2017-06-05 17:46:33,658 [12   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-06-05 17:47:47,971 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-06-05 17:47:47,994 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-06-05 17:47:48,004 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.Web.MiAppWebModule, MiApp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:47:48,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppDataModule, MiApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:47:48,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:47:48,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:47:48,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:47:48,007 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:47:48,007 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:47:48,007 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppCoreModule, MiApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:47:48,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppApplicationModule, MiApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:47:48,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:47:48,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.Api.MiAppWebApiModule, MiApp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:47:48,010 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:47:48,011 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:47:48,011 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:47:48,011 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:47:48,012 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:47:48,016 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-06-05 17:47:48,185 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 17:47:48,186 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 17:47:48,186 [1    ] o.Configuration.LanguageManagementConfig - Converted MiApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 17:47:48,186 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 17:47:48,596 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MiApp.EntityFramework.MiAppDbContext, MiApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:47:50,188 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-06-05 17:47:50,200 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-06-05 17:47:50,208 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-06-05 17:47:50,212 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MiApp
+DEBUG 2017-06-05 17:47:50,214 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-06-05 17:47:50,344 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-05 17:47:50,422 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-06-05 17:47:50,422 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-06-05 17:47:50,426 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-06-05 17:47:50,426 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Users.Dto.CreateUserInput
+DEBUG 2017-06-05 17:47:50,426 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Users.Dto.UserListDto
+DEBUG 2017-06-05 17:47:50,426 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Products.Dto.ProductListDto
+DEBUG 2017-06-05 17:47:50,426 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-06-05 17:47:50,427 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-06-05 17:47:50,427 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-06-05 17:47:52,750 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-06-05 17:47:52,752 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-06-05 17:47:52,753 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-06-05 17:47:52,754 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2017-06-05 17:47:52,755 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+ERROR 2017-06-05 17:47:53,489 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - Can not find IP address of the client! connectionId: 1f0273b6-2388-4f77-8886-30debb622c18
+ERROR 2017-06-05 17:47:53,489 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - Value does not fall within the expected range.
+System.ArgumentException: Value does not fall within the expected range.
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Web.Hosting.IIS7WorkerRequest.GetServerVariableInternal(String name)
+   at System.Web.Hosting.IIS7WorkerRequest.GetServerVariable(String name)
+   at System.Web.HttpRequest.FillInServerVariablesCollection()
+   at System.Web.HttpServerVarsCollection.Populate()
+   at System.Web.HttpServerVarsCollection.Get(String name)
+   at Microsoft.Owin.Host.SystemWeb.OwinCallContext.Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.IPropertySource.GetServerRemoteIpAddress()
+   at Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.get_ServerRemoteIpAddress()
+   at Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.PropertiesTryGetValue(String key, Object& value)
+   at Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.System.Collections.Generic.IDictionary<System.String,System.Object>.get_Item(String key)
+   at Abp.Web.SignalR.Hubs.AbpCommonHub.GetIpAddressOfClient()
+DEBUG 2017-06-05 17:47:53,564 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"1f0273b6-2388-4f77-8886-30debb622c18","IpAddress":"","TenantId":null,"UserId":1,"ConnectTime":"2017-06-05T17:47:53.4939418-04:00","Properties":{}}
+DEBUG 2017-06-05 17:47:53,805 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"817863aa-c9d6-445c-9762-588e12f9d41a","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-06-05T17:47:53.8059251-04:00","Properties":{}}
+WARN  2017-06-05 17:47:54,889 [8    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-06-05 17:52:16,137 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-06-05 17:52:16,158 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-06-05 17:52:16,166 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.Web.MiAppWebModule, MiApp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:52:16,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppDataModule, MiApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:52:16,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:52:16,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:52:16,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:52:16,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:52:16,170 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:52:16,170 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppCoreModule, MiApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:52:16,170 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppApplicationModule, MiApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:52:16,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:52:16,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.Api.MiAppWebApiModule, MiApp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:52:16,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:52:16,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:52:16,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:52:16,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:52:16,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:52:16,176 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-06-05 17:52:16,388 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 17:52:16,388 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 17:52:16,389 [1    ] o.Configuration.LanguageManagementConfig - Converted MiApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 17:52:16,389 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 17:52:16,764 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MiApp.EntityFramework.MiAppDbContext, MiApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:52:18,950 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-06-05 17:52:18,961 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-06-05 17:52:18,967 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-06-05 17:52:18,970 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MiApp
+DEBUG 2017-06-05 17:52:18,972 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-06-05 17:52:19,105 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-05 17:52:19,181 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-06-05 17:52:19,181 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-06-05 17:52:19,185 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-06-05 17:52:19,185 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Users.Dto.CreateUserInput
+DEBUG 2017-06-05 17:52:19,185 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Users.Dto.UserListDto
+DEBUG 2017-06-05 17:52:19,185 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Products.Dto.ProductListDto
+DEBUG 2017-06-05 17:52:19,185 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-06-05 17:52:19,186 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-06-05 17:52:19,186 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-06-05 17:52:21,525 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-06-05 17:52:21,526 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-06-05 17:52:21,528 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-06-05 17:52:21,529 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2017-06-05 17:52:21,530 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-06-05 17:52:22,400 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"df89ef34-5938-4df8-b946-3ed593c956be","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-06-05T17:52:22.3759966-04:00","Properties":{}}
+WARN  2017-06-05 17:52:23,792 [8    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-06-05 17:55:11,230 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-06-05 17:55:11,255 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-06-05 17:55:11,266 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.Web.MiAppWebModule, MiApp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:55:11,268 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppDataModule, MiApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:55:11,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:55:11,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:55:11,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:55:11,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:55:11,270 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:55:11,271 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppCoreModule, MiApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:55:11,271 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppApplicationModule, MiApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:55:11,271 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:55:11,271 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.Api.MiAppWebApiModule, MiApp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:55:11,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:55:11,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:55:11,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:55:11,273 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:55:11,273 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:55:11,278 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-06-05 17:55:11,478 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 17:55:11,478 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 17:55:11,478 [1    ] o.Configuration.LanguageManagementConfig - Converted MiApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 17:55:11,478 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 17:55:11,976 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MiApp.EntityFramework.MiAppDbContext, MiApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 17:55:13,507 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-06-05 17:55:13,519 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-06-05 17:55:13,526 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-06-05 17:55:13,530 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MiApp
+DEBUG 2017-06-05 17:55:13,531 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-06-05 17:55:13,708 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-05 17:55:13,788 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-06-05 17:55:13,788 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-06-05 17:55:13,793 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-06-05 17:55:13,793 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Users.Dto.CreateUserInput
+DEBUG 2017-06-05 17:55:13,793 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Users.Dto.UserListDto
+DEBUG 2017-06-05 17:55:13,794 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Products.Dto.ProductListDto
+DEBUG 2017-06-05 17:55:13,794 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-06-05 17:55:13,794 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-06-05 17:55:13,794 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-06-05 17:55:16,227 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-06-05 17:55:16,229 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-06-05 17:55:16,230 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-06-05 17:55:16,231 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2017-06-05 17:55:16,232 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-06-05 17:55:17,170 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9c02c3ec-0c17-414a-b7a7-8f77bc48bbf8","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T17:55:17.1362357-04:00","Properties":{}}
+WARN  2017-06-05 17:55:18,415 [10   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-06-05 18:02:49,385 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-06-05 18:02:49,412 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-06-05 18:02:49,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.Web.MiAppWebModule, MiApp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 18:02:49,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppDataModule, MiApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 18:02:49,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 18:02:49,427 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 18:02:49,427 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 18:02:49,427 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 18:02:49,428 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 18:02:49,428 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppCoreModule, MiApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 18:02:49,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.MiAppApplicationModule, MiApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 18:02:49,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 18:02:49,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MiApp.Api.MiAppWebApiModule, MiApp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 18:02:49,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 18:02:49,430 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 18:02:49,430 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 18:02:49,430 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 18:02:49,430 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 18:02:49,436 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-06-05 18:02:49,597 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 18:02:49,598 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 18:02:49,598 [1    ] o.Configuration.LanguageManagementConfig - Converted MiApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 18:02:49,598 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 18:02:50,024 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MiApp.EntityFramework.MiAppDbContext, MiApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 18:02:51,832 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-06-05 18:02:51,842 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-06-05 18:02:51,850 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-06-05 18:02:51,853 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MiApp
+DEBUG 2017-06-05 18:02:51,858 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-06-05 18:02:51,998 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-05 18:02:52,075 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-06-05 18:02:52,075 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-06-05 18:02:52,078 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-06-05 18:02:52,078 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Users.Dto.CreateUserInput
+DEBUG 2017-06-05 18:02:52,078 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Users.Dto.UserListDto
+DEBUG 2017-06-05 18:02:52,078 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Products.Dto.ProductListDto
+DEBUG 2017-06-05 18:02:52,078 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-06-05 18:02:52,079 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-06-05 18:02:52,079 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MiApp.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-06-05 18:02:54,568 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-06-05 18:02:54,571 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-06-05 18:02:54,573 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-06-05 18:02:54,575 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2017-06-05 18:02:54,576 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MiApp.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-06-05 18:02:55,354 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"9c02c3ec-0c17-414a-b7a7-8f77bc48bbf8","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-06-05T18:02:55.2901145-04:00","Properties":{}}
+WARN  2017-06-05 18:02:56,670 [11   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
