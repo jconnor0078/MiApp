@@ -8,56 +8,58 @@
 {
     @Html.IncludeScript("~/Views/Products/Index.js")
 }
-<div>
-    <h1>@L("Products")</h1>
-    <div class="row">
-        <div class="col-md-12">
-            <button data-toggle="modal" data-target="#ProductCreateModal" class="btn btn-primary pull-right"><i class="fa fa-plus"></i> @L("CreateNewProduct")</button>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>@L("Name")</th>
-                        <th>@L("Price")</th>
-                      
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var product in Model.Items)
-                    {
+
+    <div>
+        <h1>@L("Products")</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <button data-toggle="modal" data-target="#ProductCreateModal" class="btn btn-primary pull-right"><i class="fa fa-plus"></i> @L("CreateNewProduct")</button>
+                <table class="table">
+                    <thead>
                         <tr>
-                            <td>@product.Name</td>
-                            <td>@product.Price</td>
+                            <th>@L("Name")</th>
+                            <th>@L("Price")</th>
+
                         </tr>
-                    }
-                </tbody>
-            </table>
+                    </thead>
+                    <tbody>
+                        @foreach (var product in Model.Items)
+                        {
+                            <tr>
+                                <td>@product.Name</td>
+                                <td>@product.Price</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
-</div>
-<div class="modal fade" id="ProductCreateModal" tabindex="-1" role="dialog" aria-labelledby="ProductCreateModalLabel" data-backdrop="static">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <form name="ProductCreateForm" role="form" novalidate class="form-validation">
-                <div class="modal-header">
-                    <h4 class="modal-title">
-                        <span>@L("CreateNewProduct")</span>
-                    </h4>
-                </div>
-                <div class="modal-body">
-                    <div class="form-group">
-                        <label>@L("Name")</label>
-                        <input class="form-control" type="text" name="Name" required maxlength="@AbpUserBase.MaxUserNameLength" minlength="2">
+    <div class="modal fade" id="ProductCreateModal" tabindex="-1" role="dialog" aria-labelledby="ProductCreateModalLabel" data-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form name="ProductCreateForm" role="form" novalidate class="form-validation">
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            <span>@L("CreateNewProduct")</span>
+                        </h4>
                     </div>
-                    <div class="form-group">
-                        <label>@L("Price")</label>
-                        <input type="text" name="Price" class="form-control" required maxlength="@MiApp.Users.User.MaxNameLength">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label>@L("Name")</label>
+                            <input class="form-control" type="text" name="Name" required maxlength="@AbpUserBase.MaxUserNameLength" minlength="2">
+                        </div>
+                        <div class="form-group">
+                            <label>@L("Price")</label>
+                            <input type="text" name="Price" class="form-control" required maxlength="@MiApp.Users.User.MaxNameLength">
+                        </div>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">@L("Cancel")</button>
-                    <button type="submit" class="btn btn-primary blue"><i class="fa fa-save"></i> <span>@L("Save")</span></button>
-                </div>
-            </form>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">@L("Cancel")</button>
+                        <button type="submit" class="btn btn-primary blue"><i class="fa fa-save"></i> <span>@L("Save")</span></button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
-</div>
+ 
