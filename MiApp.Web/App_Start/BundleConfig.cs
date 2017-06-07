@@ -35,15 +35,18 @@ namespace MiApp.Web
                 new ScriptBundle("~/Bundles/vendor/js/bottom")
                     .Include(
                         "~/Scripts/json2.min.js",
+
                         "~/Content/admin/vendor/jquery/jquery.min.js",
-                       
                         "~/Scripts/jquery-2.2.0.min.js",
-                        "~/Scripts/jquery-ui-1.11.4.min.js",
+                         "~/Scripts/jquery-ui-1.11.4.min.js",
+                        //"~/Scripts/jquery-2.2.0.min.js",
+
 
                         "~/Content/admin/vendor/bootstrap/js/bootstrap.min.js",
                         //"~/Scripts/bootstrap.min.js",
+                        "~/Content/admin/vendor/metisMenu/metisMenu.min.js",
 
-                        
+
                         "~/Scripts/moment-with-locales.min.js",
                         "~/Scripts/jquery.validate.min.js",
                         "~/Scripts/jquery.blockUI.js",
