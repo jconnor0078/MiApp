@@ -39,17 +39,18 @@ namespace MiApp.Web
                         "~/Content/admin/vendor/jquery/jquery.min.js",
                         "~/Scripts/jquery-2.2.0.min.js",
                          "~/Scripts/jquery-ui-1.11.4.min.js",
-                        //"~/Scripts/jquery-2.2.0.min.js",
+       
+                        "~/Scripts/jquery.blockUI.js",
 
-
+                         
                         "~/Content/admin/vendor/bootstrap/js/bootstrap.min.js",
-                        //"~/Scripts/bootstrap.min.js",
+                        
                         "~/Content/admin/vendor/metisMenu/metisMenu.min.js",
 
 
+
+
                         "~/Scripts/moment-with-locales.min.js",
-                        "~/Scripts/jquery.validate.min.js",
-                        "~/Scripts/jquery.blockUI.js",
                         "~/Scripts/toastr.min.js",
                         "~/Scripts/sweetalert/sweet-alert.min.js",
                         "~/Scripts/others/spinjs/spin.js",

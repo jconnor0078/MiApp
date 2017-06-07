@@ -34,12 +34,12 @@
     <link href="~/Content/admin/vendor/morrisjs/morris.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="~/Content/admin/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
- 
+
     <script type="text/javascript">
         //This is used to get the application's root path from javascript. It's useful if you're running application in a virtual directory under IIS.
         var abp = abp || {}; abp.appPath = '@ApplicationPath';
     </script>
- 
+    @Scripts.Render("~/Bundles/vendor/js/top")
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -48,7 +48,7 @@
     <![endif]-->
 </head>
 <body>
- 
+
 
 
     <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
@@ -63,6 +63,9 @@
         </div>
         @{Html.RenderAction("getButonOfNav", "Layout");}
         @{Html.RenderAction("getSlideMenu", "Layout");}
+
+
+       
     </nav>
     <div class="container">
         <div id="page-wrapper">
@@ -71,10 +74,36 @@
     </div>
 
     @Scripts.Render("~/Bundles/vendor/js/bottom")
+ 
     @Scripts.Render("~/Bundles/js")
+
+    <script src="~/Scripts/jquery-ui.min.js"
+            type="text/javascript"></script>
+    <!-- Jtable Files-->
+    <link href="~/Content/themes/redmond/jquery-ui-1.8.16.custom.css"
+          rel="stylesheet" type="text/css" />
+    
+
+    <link href="~/Scripts/jtable/themes/metro/blue/jtable.css"
+          rel="stylesheet" type="text/css" />
+     
+
+    <!-- Include jTable -->
+    <script src="~/Scripts/jtable/jquery.jtable.min.js"
+            type="text/javascript"></script>
+
+
+<!--************************************************************************-->
+
+
+    <!-- Dynamic scripts of ABP system (They are created on runtime and can not be bundled) -->
+    <script src="~/api/AbpServiceProxies/GetAll?v=@(Clock.Now.Ticks)"></script>
+    <script src="~/AbpScripts/GetScripts?v=@(Clock.Now.Ticks)" type="text/javascript"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+
     <!-- SignalR scripts -->
-    @*<script src="~/signalr"></script>
-    <script src="~/Abp/Framework/scripts/libs/abp.signalr.js"></script>*@
+    <script src="~/signalr/hubs"></script>
+    @Html.IncludeScript("~/Abp/Framework/scripts/libs/abp.signalr.js")
 
     <!-- jQuery -->
     @*<script src="~/Content/admin/vendor/jquery/jquery.min.js"></script>*@
@@ -83,12 +112,16 @@
     <!-- Metis Menu Plugin JavaScript -->
     @*<script src="~/Content/admin/vendor/metisMenu/metisMenu.min.js"></script>*@
     <!-- Morris Charts JavaScript -->
-    <script src="~/Content/admin/vendor/raphael/raphael.min.js"></script>
+
+
+
+
     <script src="~/Content/admin/vendor/morrisjs/morris.min.js"></script>
     <script src="~/Content/admin/data/morris-data.js"></script>
+
     <!-- Custom Theme JavaScript -->
-    <script src="~/Content/admin/dist/js/sb-admin-2.js"></script>
-   
+    @*<script src="~/Content/admin/dist/js/sb-admin-2.js"></script>*@
+
     <!-- View specific scripts -->
     @RenderSection("scripts", required: false)
 </body>

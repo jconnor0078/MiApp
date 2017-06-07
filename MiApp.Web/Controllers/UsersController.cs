@@ -3,6 +3,7 @@ using System.Web.Mvc;
 using Abp.Web.Mvc.Authorization;
 using MiApp.Authorization;
 using MiApp.Users;
+using System.Web.Services;
 
 namespace MiApp.Web.Controllers
 {
@@ -20,6 +21,13 @@ namespace MiApp.Web.Controllers
         {
             var output = await _userAppService.GetUsers();
             return View(output);
+        }
+
+       
+        public JsonResult GetUserList()
+        {
+            var output =   _userAppService.GetUsers();
+            return Json(new { Result = "OK", Records = output });
         }
     }
 }

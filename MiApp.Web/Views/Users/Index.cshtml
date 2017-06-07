@@ -4,10 +4,16 @@
 @{
     ViewBag.ActiveMenu = "Users"; //The menu item will be active for this page.
 }
+
 @section scripts
 {
+
     @Html.IncludeScript("~/Views/Users/Index.js")
+  
+
 }
+
+ 
 <div>
     <h1>@L("Users")</h1>
     <div class="row">
@@ -37,6 +43,9 @@
         </div>
     </div>
 </div>
+<h2>Ejemplo Jtable</h2>
+
+<div id="UserTableContainer"></div>
 
 <div class="modal fade" id="UserCreateModal" tabindex="-1" role="dialog" aria-labelledby="UserCreateModalLabel" data-backdrop="static">
     <div class="modal-dialog" role="document">
@@ -48,38 +57,31 @@
                     </h4>
                 </div>
                 <div class="modal-body">
-
                     <div class="form-group">
                         <label>@L("UserName")</label>
                         <input class="form-control" type="text" name="UserName" required maxlength="@AbpUserBase.MaxUserNameLength" minlength="2">
                     </div>
-
                     <div class="form-group">
                         <label>@L("Name")</label>
                         <input type="text" name="Name" class="form-control" required maxlength="@MiApp.Users.User.MaxNameLength">
                     </div>
-
                     <div class="form-group">
                         <label>@L("Surname")</label>
                         <input type="text" name="Surname" class="form-control" required maxlength="@MiApp.Users.User.MaxSurnameLength">
                     </div>
-
                     <div class="form-group">
                         <label>@L("EmailAddress")</label>
                         <input type="email" name="EmailAddress" class="form-control" maxlength="@AbpUserBase.MaxEmailAddressLength">
                     </div>
-
                     <div class="form-group">
                         <label>@L("Password")</label>
                         <input type="password" name="Password" class="form-control" required maxlength="@MiApp.Users.User.MaxPlainPasswordLength">
                     </div>
-
                     <div class="checkbox">
                         <label>
                             <input type="checkbox" name="IsActive" value="true" value="true" checked="checked"> @L("IsActive")
                         </label>
                     </div>
-
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">@L("Cancel")</button>
@@ -89,3 +91,5 @@
         </div>
     </div>
 </div>
+ 
+ 

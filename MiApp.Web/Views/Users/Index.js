@@ -1,5 +1,38 @@
 ﻿(function() {
     $(function() {
+        $('#UserTableContainer').jtable({
+            title: 'Table of user',
+            actions: {
+                listAction: '/Users/GetUserList/',
+                //createAction: '/GettingStarted/CreatePerson',
+                //updateAction: '/GettingStarted/UpdatePerson',
+                //deleteAction: '/GettingStarted/DeletePerson'
+            },
+            fields: {
+               
+                Name: {
+                    title: 'Author Name',
+                    width: '40%'
+                },
+                UserName: {
+                    title: 'nombre de usuario',
+                    width: '40%'
+                },
+                FullName: {
+                    title: 'nombre full',
+                    width: '40%'
+                }//,
+                //RecordDate: {
+                //    title: 'Record date',
+                //    width: '30%',
+                //    type: 'date',
+                //    create: false,
+                //    edit: false
+                //}
+            }
+        });
+        //Load person list from server
+        $('#PersonTable').jtable('load');
 
         var _userService = abp.services.app.user;
         var _$modal = $('#UserCreateModal');
@@ -28,5 +61,10 @@
         _$modal.on('shown.bs.modal', function () {
             _$modal.find('input:not([type=hidden]):first').focus();
         });
+
+
+
+
     });
+
 })();
