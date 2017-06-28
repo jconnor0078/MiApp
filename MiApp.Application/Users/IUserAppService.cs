@@ -2,6 +2,7 @@ using System.Threading.Tasks;
 using Abp.Application.Services;
 using Abp.Application.Services.Dto;
 using MiApp.Users.Dto;
+using System.Collections.Generic;
 
 namespace MiApp.Users
 {
@@ -11,7 +12,11 @@ namespace MiApp.Users
 
         Task RemoveFromRole(long userId, string roleName);
 
-        Task<ListResultDto<UserListDto>> GetUsers();
+        Task<PagedResultDto<UserListDto>> GetUsers();
+
+        Task<newUserListDto> GetListUsers();
+
+        List<UserListDto> GetLisU();
 
         Task CreateUser(CreateUserInput input);
     }

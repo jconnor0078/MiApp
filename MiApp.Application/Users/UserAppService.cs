@@ -37,15 +37,30 @@ namespace MiApp.Users
             CheckErrors(await UserManager.RemoveFromRoleAsync(userId, roleName));
         }
 
-        public async Task<ListResultDto<UserListDto>> GetUsers()
+        public async Task<PagedResultDto<UserListDto>> GetUsers()
         {
             var users = await _userRepository.GetAllListAsync();
 
-            return new ListResultDto<UserListDto>(
+            return new PagedResultDto<UserListDto>(
+                users.Count,
                 users.MapTo<List<UserListDto>>()
                 );
         }
+        public async Task<newUserListDto> GetListUsers()
+        {
+            var users = await _userRepository.GetAllListAsync();
+            return new newUserListDto { Result = "Ok", Options = users.MapTo<List<UserListDto>>() };
+        }
+      
+        public  List<UserListDto> GetLisU()
+        {
+            var users = _userRepository
+                .GetAll();
+                 
 
+            return new List<UserListDto>(users.MapTo<List<UserListDto>>());
+ 
+        }
         public async Task CreateUser(CreateUserInput input)
         {
             var user = input.MapTo<User>();

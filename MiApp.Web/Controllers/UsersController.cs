@@ -4,6 +4,7 @@ using Abp.Web.Mvc.Authorization;
 using MiApp.Authorization;
 using MiApp.Users;
 using System.Web.Services;
+using System.Linq;
 
 namespace MiApp.Web.Controllers
 {
@@ -23,11 +24,12 @@ namespace MiApp.Web.Controllers
             return View(output);
         }
 
-       
+        [HttpPost]
         public JsonResult GetUserList()
         {
-            var output =   _userAppService.GetUsers();
-            return Json(new { Result = "OK", Records = output });
+            var output = _userAppService.GetLisU();
+
+            return Json(new { Result = "OK", Records = output } );
         }
     }
 }
